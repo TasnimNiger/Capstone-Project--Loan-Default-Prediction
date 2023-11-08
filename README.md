@@ -14,4 +14,7 @@ A classification model to predict clients who are likely to default on their loa
 
   
   **Highlights:**
-  Building various models and tuning the model to get better validation.
+  
+Built four predictive models: • Logistic Regression • XGBoost • Decision Trees • Random Forest Model. 
+
+Models were evaluated based on precision, recall and f1-score. Optimal thresholds were set based on precision and recall curves. Tuned the model with GridSearchCV and different hyperparameters to get better validation. Used SHAP to understand the logic behind a black-box model’s outputs.
